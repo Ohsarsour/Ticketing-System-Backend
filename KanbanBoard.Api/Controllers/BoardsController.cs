@@ -30,6 +30,7 @@ namespace KanbanBoard.Api.Controllers
             // Retrieve all boards from the database asynchronously
             return await _context.Boards.ToListAsync();
         }
+        
 
         // GET: api/Boards/1
         [HttpGet("{id}")]

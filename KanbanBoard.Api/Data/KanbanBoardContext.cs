@@ -14,5 +14,6 @@ namespace KanbanBoard.Api.Data
 
         // DbSet representing the Boards table in the database
         public DbSet<Board> Boards { get; set; }
+        public DbSet<KanbanTask> Tasks { get; set; }
     }
 }

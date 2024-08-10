@@ -6,6 +6,6 @@ namespace KanbanBoard.Api.Models
         public int Id { get; set; }
 
         // Name of the board
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }
